@@ -29,3 +29,14 @@ h1 {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.lado-esquerdo {
+    width: 200px;
+    display: inline-block;
+}
+
+.lado-direito{
+    width: 200px;
+    display: inline-block;
+    margin-left: 50px;
+}

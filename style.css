@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: palegreen;
     margin: 0px 0px;
 }
 
@@ -13,15 +13,31 @@ header {
 
 #titulo {
     margin-top: 0;
+    text-align: center;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas {
     border: 5px solid black;
     width: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-left: 30px;
+    margin-left: 50px;
     line-height: 30px;
+    margin-top: 100px;
+    display: inline-block;
+    position: absolute;
+}
+
+#licoes_a_aprender {
+    border: 5px solid black;
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 400px;
+    line-height: 30px;
+    margin-top: 100px;
+    display: inline-block;
+    position: absolute;
 }
 
 h1 {
@@ -39,4 +55,21 @@ h1 {
     width: 200px;
     display: inline-block;
     margin-left: 50px;
+}
+
+#minha_foto {
+    width: 300px;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 100px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+#tabela {
+    margin-left: 550px;
+}
+
+#blocos {
+    text-align: center;
 }
